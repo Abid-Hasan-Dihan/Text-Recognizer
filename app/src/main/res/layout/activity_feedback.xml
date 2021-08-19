@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:weightSum="4"
+    android:background="@color/black_shade_1"
+    tools:context=".FeedbackActivity">
+
+    <LinearLayout
+        android:layout_weight="0.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+
+        <EditText
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/nameEditText"
+            android:textColorHint="#92EAE0E0"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:textStyle="italic|bold"
+            android:backgroundTint="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            />
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_weight="1.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/messageEditText"
+            android:textColor="@color/white"
+            android:textColorHint="#92EAE0E0"
+            android:textSize="18sp"
+            android:textStyle="italic"
+            android:backgroundTint="@color/yellow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Message"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+
+            android:id="@+id/sendButtonId"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginRight="10dp"
+            android:text="Send"
+            android:textColor="@color/black"
+            android:background="@drawable/button_background"
+            app:backgroundTint="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+        <Button
+
+
+            android:id="@+id/clearButtonId"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="Cancel"
+            android:textColor="@color/black"
+            android:background="@drawable/button_background"
+            app:backgroundTint="@color/yellow"
+            android:textSize="20sp"
+            android:textStyle="bold"
+
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

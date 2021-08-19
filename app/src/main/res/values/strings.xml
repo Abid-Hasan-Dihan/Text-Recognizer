@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Image to Text Recognizer</string>
+
+    <string name="intro">
+
+        Institute : Manarat International University\nBSC in CSE\nVersion : 1.0
+    </string>
+
+    <string name="autolink_Option">
+
+        Developer info!\n\nName : Md Abid Hasan Dihan\nEmail : ahdihan2001aug@gmail.com
+
+
+    </string>
+</resources>
